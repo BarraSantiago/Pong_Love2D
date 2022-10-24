@@ -4,6 +4,7 @@ require("botIA")
 
 local font = love.graphics.newFont("insane_hours_2.ttf", 16)
 
+
 function love.load()
   Player:load()
   Ball:load()
@@ -46,3 +47,4 @@ function love.draw()
   love.graphics.print(Ball.scoreP2, love.graphics.getWidth() / 1.5, love.graphics.getHeight() / 100)
   love.graphics.print(Ball.scoreP1, love.graphics.getWidth() / 4, love.graphics.getHeight() / 100)
 end
+
